@@ -1,0 +1,139 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4146ebe5-fef3-4b43-b0fc-f8c36ef12e24")
+	(paper "A4")
+	(title_block
+		(title "RAT High level schematics")
+		(date "2025-08-23")
+		(rev "0")
+		(company "E.R.I.G. e.V.")
+	)
+	(lib_symbols)
+	(text "Change Log:"
+		(exclude_from_sim no)
+		(at 29.464 151.384 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+			)
+		)
+		(uuid "13288016-2722-430d-89ad-d6beb89566df")
+	)
+	(text "General Information:"
+		(exclude_from_sim no)
+		(at 34.29 41.656 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "918166cd-1585-47b7-8738-49521bf3ae8a")
+	)
+	(text "Options:"
+		(exclude_from_sim no)
+		(at 102.362 41.402 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+			)
+		)
+		(uuid "be7cfd40-b276-415d-b9cd-339cb79cb84e")
+	)
+	(text "ToDo:"
+		(exclude_from_sim no)
+		(at 176.022 41.148 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+			)
+		)
+		(uuid "fc741d52-a523-4cc5-be4e-7f0ed6a43bd6")
+	)
+	(text_box "-"
+		(exclude_from_sim no)
+		(at 96.52 43.434 0)
+		(size 70.104 82.042)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "1b161cec-5806-480b-9084-698f86f0433b")
+	)
+	(text_box "15.02.2025 - Initial Design - Arne Oetken\n\n16.02.2025 - Changed to 2 Layer Design - Jonathan Zackl"
+		(exclude_from_sim no)
+		(at 20.828 153.67 0)
+		(size 96.266 36.322)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "bf151b75-268b-40bf-b0da-8004044a3140")
+	)
+	(text_box "The UNITY Breakout Board Version 001 is based on the UNITY CAM Design.\n\nThe Breakout Board provides 3 D-SUB 26 HD Female Connectors, which are used to connect the UNITY FDR, the UNITY CATS-BOB and the UNITY RSC to the central Electronics Stack.\n\nTwo JAE IL-G 2 Pin Connectors provide Power from the Aux. LPS Bus to onboard Cameras."
+		(exclude_from_sim no)
+		(at 20.574 43.434 0)
+		(size 70.104 82.042)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d4c26c84-52e7-4826-b26c-415ec9254de3")
+	)
+	(text_box "ToDo next Revision:\n- "
+		(exclude_from_sim no)
+		(at 172.212 43.434 0)
+		(size 70.104 82.042)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e282c4b4-f09f-406f-8bd3-0ebf392c9bcb")
+	)
+)

@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "dd97591a-9eaa-4a60-8258-697d7170701a")
+	(paper "A4")
+	(title_block
+		(title "RAT High level schematics")
+		(date "2025-08-23")
+		(rev "0")
+	)
+	(lib_symbols)
+)

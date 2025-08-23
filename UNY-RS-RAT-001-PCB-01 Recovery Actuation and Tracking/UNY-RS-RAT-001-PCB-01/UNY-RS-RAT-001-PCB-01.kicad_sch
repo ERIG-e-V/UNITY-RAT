@@ -1,0 +1,337 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4c27cf79-fa69-4feb-8387-cce7f127887f")
+	(paper "A4")
+	(title_block
+		(title "RAT High level schematics")
+		(date "2025-08-23")
+		(rev "0")
+	)
+	(lib_symbols)
+	(text "System Overview"
+		(exclude_from_sim no)
+		(at 119.38 156.464 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "550542f7-ad3d-4eeb-868b-57dc4889f9f0")
+	)
+	(text "Information / LOG"
+		(exclude_from_sim no)
+		(at 119.888 179.832 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "8cb6480f-3dbf-4da6-b59a-7cdd2f0cc9cf")
+	)
+	(sheet
+		(at 103.124 172.72)
+		(size 34.544 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1bf148a2-13cd-4ef0-b036-59a37ce06d45")
+		(property "Sheetname" "UNITY BOB Information"
+			(at 103.124 172.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/UNY-RS-RAT-001-INF-00.kicad_sch"
+			(at 103.124 186.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UNY-RS-RAT-001-PCB-01"
+				(path "/4c27cf79-fa69-4feb-8387-cce7f127887f"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 149.86)
+		(size 35.052 12.446)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2dd2a97f-41d7-43c5-8078-6111de84fea0")
+		(property "Sheetname" "UNITY BOB System Overview"
+			(at 102.87 149.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/UNY-RS-RAT-001-PLN-00.kicad_sch"
+			(at 102.87 162.8906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UNY-RS-RAT-001-PCB-01"
+				(path "/4c27cf79-fa69-4feb-8387-cce7f127887f"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 91.44)
+		(size 27.94 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "523e1c00-69b9-445c-b32c-4191c2108ff0")
+		(property "Sheetname" "Feedback Input"
+			(at 190.5 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/feedback_input.kicad_sch"
+			(at 190.5 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UNY-RS-RAT-001-PCB-01"
+				(path "/4c27cf79-fa69-4feb-8387-cce7f127887f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 40.64)
+		(size 33.02 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "58102767-6eb0-4584-b997-4e42ba1c55fe")
+		(property "Sheetname" "Controller Unit"
+			(at 113.03 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/controller_unit.kicad_sch"
+			(at 113.03 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UNY-RS-RAT-001-PCB-01"
+				(path "/4c27cf79-fa69-4feb-8387-cce7f127887f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 97.79)
+		(size 33.02 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "750c8761-90ad-4cd9-b93b-abb33b412847")
+		(property "Sheetname" "Power Supply"
+			(at 111.76 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/power_supply.kicad_sch"
+			(at 111.76 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UNY-RS-RAT-001-PCB-01"
+				(path "/4c27cf79-fa69-4feb-8387-cce7f127887f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 36.83)
+		(size 27.94 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "81706e5c-f85b-4bd5-8d1b-3728352ec6bd")
+		(property "Sheetname" "Actuator Output"
+			(at 187.96 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/actuator_output.kicad_sch"
+			(at 187.96 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UNY-RS-RAT-001-PCB-01"
+				(path "/4c27cf79-fa69-4feb-8387-cce7f127887f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 74.93)
+		(size 38.1 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9fac421b-c1f3-4f3d-8cd9-0e1d70eefee8")
+		(property "Sheetname" "ERBus Input"
+			(at 24.13 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/ERBUS_DSUB.kicad_sch"
+			(at 24.13 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UNY-RS-RAT-001-PCB-01"
+				(path "/4c27cf79-fa69-4feb-8387-cce7f127887f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
