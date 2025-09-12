@@ -5,7 +5,7 @@
 	(uuid "97b2993e-2624-4d7d-813d-e994e579229f")
 	(paper "A4")
 	(title_block
-		(title "RAT High level schematics")
+		(title "Sensor MCU")
 		(date "2025-08-23")
 		(rev "0")
 	)

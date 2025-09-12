@@ -239,6 +239,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -277,7 +278,14 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(U2-VBAT)": [
+        "PWR_MCU"
+      ],
+      "Net-(U3-VBAT)": [
+        "PWR_MCU"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -430,7 +438,7 @@
     ],
     [
       "523e1c00-69b9-445c-b32c-4191c2108ff0",
-      "Feedback Input"
+      "Sensor Input"
     ],
     [
       "1bf148a2-13cd-4ef0-b036-59a37ce06d45",
@@ -439,6 +447,18 @@
     [
       "2dd2a97f-41d7-43c5-8078-6111de84fea0",
       "UNITY BOB System Overview"
+    ],
+    [
+      "66fc88b9-43c3-4c0c-95fe-3b857b455132",
+      "CAN"
+    ],
+    [
+      "bb256d9c-6f98-4f4a-b627-50239ee51d58",
+      "Sensor Controller"
+    ],
+    [
+      "eb7d48f8-3dc7-4d59-a2d8-b4e04c5cc093",
+      "Deployment Controller"
     ]
   ],
   "text_variables": {

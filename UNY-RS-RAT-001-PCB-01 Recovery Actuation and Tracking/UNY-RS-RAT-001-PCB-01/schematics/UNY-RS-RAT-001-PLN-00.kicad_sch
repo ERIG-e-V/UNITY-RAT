@@ -5,7 +5,7 @@
 	(uuid "1a7a7d8d-615a-4707-b28a-79359ccce30c")
 	(paper "A4")
 	(title_block
-		(title "RAT High level schematics")
+		(title "Sensor MCU")
 		(date "2025-08-23")
 		(rev "0")
 		(company "E.R.I.G. e.V.")
