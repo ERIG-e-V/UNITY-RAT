@@ -21,4 +21,5 @@
   (lib (name "Würth WE-SHC Shielding")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/Würth WE-SHC Shielding.kicad_sym")(options "")(descr ""))
   (lib (name "XT30PW-F")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/XT30PW-F.kicad_sym")(options "")(descr ""))
   (lib (name "RAT_symbols")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/RAT_symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "Crystal_Wurth_WE-SPXO")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/Crystal_Wurth_WE-SPXO.kicad_sym")(options "")(descr ""))
 )

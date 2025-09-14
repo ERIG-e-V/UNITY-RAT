@@ -4,4 +4,5 @@
   (lib (name "MagIC_SMD_Wurth")(type "KiCad")(uri "${KIPRJMOD}/Libraries/footprints.pretty/MagIC_SMD_Wurth.pretty")(options "")(descr ""))
   (lib (name "XT60")(type "KiCad")(uri "${KIPRJMOD}/Libraries/footprints.pretty/XT60.pretty")(options "")(descr ""))
   (lib (name "RAT_foot_Library")(type "KiCad")(uri "${KIPRJMOD}/Libraries/footprints.pretty/RAT_foot_Library.pretty")(options "")(descr ""))
+  (lib (name "Crystal_SMD_Wurth")(type "KiCad")(uri "${KIPRJMOD}/Libraries/footprints.pretty/Crystal_SMD_Wurth.pretty")(options "")(descr ""))
 )

@@ -5,250 +5,138 @@
 	(uuid "dd97591a-9eaa-4a60-8258-697d7170701a")
 	(paper "A4")
 	(title_block
-		(title "Sensor MCU")
+		(title "Controller Units")
 		(date "2025-08-23")
 		(rev "0")
+		(company "E.R.I.G. e.V")
 	)
 	(lib_symbols)
-	(bus_entry
-		(at 58.42 78.74)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ac53ebb-a6df-4334-9566-5c2e594cae2a")
-	)
-	(bus_entry
-		(at 66.04 78.74)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa441776-b089-488d-a719-2da71f3d631d")
-	)
 	(wire
 		(pts
-			(xy 101.6 91.44) (xy 114.3 91.44)
+			(xy 107.95 46.99) (xy 107.95 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "262d6935-faf7-4a48-a4a5-8a44ab555662")
-	)
-	(wire
-		(pts
-			(xy 101.6 106.68) (xy 114.3 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33b172d3-8d64-493c-b70b-15a20275c0a8")
-	)
-	(wire
-		(pts
-			(xy 101.6 104.14) (xy 114.3 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4182d4f1-06fe-42b4-8307-07c49c666745")
-	)
-	(wire
-		(pts
-			(xy 66.04 80.01) (xy 66.04 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41a531b1-a655-4a45-b6ac-665639849746")
-	)
-	(wire
-		(pts
-			(xy 58.42 80.01) (xy 58.42 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44841fc8-7b6f-4104-8a4a-ea0f0076a5c8")
-	)
-	(wire
-		(pts
-			(xy 101.6 93.98) (xy 114.3 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bc29fdf-8d5a-4a0c-98d0-de9e97646299")
-	)
-	(wire
-		(pts
-			(xy 101.6 99.06) (xy 114.3 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f58b153-ef1e-4f0d-a619-017695237c19")
-	)
-	(wire
-		(pts
-			(xy 101.6 101.6) (xy 114.3 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8072223b-5beb-41ad-8184-3d3b95c616d3")
-	)
-	(wire
-		(pts
-			(xy 101.6 114.3) (xy 114.3 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b51e019d-6255-4659-af0d-75599fe6e203")
-	)
-	(wire
-		(pts
-			(xy 101.6 109.22) (xy 114.3 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd846949-ee30-4682-ba83-df665048f3ff")
-	)
-	(wire
-		(pts
-			(xy 101.6 96.52) (xy 114.3 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c345f14d-1ba8-49eb-a0fc-885b543d6db2")
+		(uuid "47c1f126-8355-434e-b802-5fafec68c0d5")
 	)
 	(bus
 		(pts
-			(xy 55.88 76.2) (xy 50.8 76.2)
+			(xy 109.22 43.18) (xy 114.3 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca0a77b3-73fb-4cb3-99f2-b90f928dc3bf")
+		(uuid "542f04b3-3490-4b8d-859a-656433fcc249")
+	)
+	(wire
+		(pts
+			(xy 158.75 92.71) (xy 152.4 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fb10e7b-53ff-4d5d-abe4-a3958efec56b")
 	)
 	(bus
 		(pts
-			(xy 63.5 76.2) (xy 55.88 76.2)
+			(xy 152.4 96.52) (xy 157.48 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "de5ea4b1-81c1-403b-b978-064435ac8b21")
+		(uuid "647f3d04-d04c-4866-9de1-4be0e7ace948")
 	)
-	(label "CAN2_RX"
-		(at 66.04 80.01 270)
+	(bus
+		(pts
+			(xy 152.4 46.99) (xy 157.48 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74aa8dc2-e7de-4bdc-9fdc-f90ecc722f8f")
+	)
+	(bus
+		(pts
+			(xy 152.4 43.18) (xy 157.48 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "850eb483-6b5f-420d-a64d-68e7a4a912cc")
+	)
+	(wire
+		(pts
+			(xy 114.3 46.99) (xy 107.95 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d5e161b-ece6-4552-b23e-be1e0bef76cf")
+	)
+	(wire
+		(pts
+			(xy 158.75 69.85) (xy 158.75 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a65f5386-7398-4893-b46d-9b01d9f7a07e")
+	)
+	(wire
+		(pts
+			(xy 107.95 69.85) (xy 158.75 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d980ad38-a012-46ee-9f78-5be78c5e5578")
+	)
+	(bus
+		(pts
+			(xy 114.3 96.52) (xy 109.22 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef7293b7-0f29-45cf-b9f3-a0d81e1b57f7")
+	)
+	(hierarchical_label "{PWM_BUS}"
+		(shape output)
+		(at 157.48 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ca9802b-8ea2-44b1-ae84-6e55063826e6")
+	)
+	(hierarchical_label "{SPI_Psense}"
+		(shape bidirectional)
+		(at 157.48 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(bold yes)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "417abd9f-3e24-4c9f-a9a2-b00880b6af8b")
-	)
-	(label "CAN2_TX"
-		(at 58.42 80.01 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "cd30511b-b2d2-47ce-ad2c-d8eff3f8caab")
-	)
-	(hierarchical_label "MP5_IN"
-		(shape input)
-		(at 101.6 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "172a97b8-1442-4653-8204-38ebcb798126")
-	)
-	(hierarchical_label "MP1_IN"
-		(shape input)
-		(at 101.6 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1b0b9b0e-cdfb-4d0a-90dc-2316decceaec")
-	)
-	(hierarchical_label "MP0_IN"
-		(shape input)
-		(at 101.6 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2ed50119-9306-4b82-b1c2-cb773a50e932")
-	)
-	(hierarchical_label "MP7_IN"
-		(shape input)
-		(at 101.6 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4193fae9-6af6-42d9-9f00-f17a031fad0e")
-	)
-	(hierarchical_label "MP3_IN"
-		(shape input)
-		(at 101.6 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6963c698-902f-4f3a-a21b-a0a782414435")
-	)
-	(hierarchical_label "MP4_IN"
-		(shape input)
-		(at 101.6 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "91ff6a5b-2587-44bc-ad71-2112478ddfbf")
+		(uuid "518f7902-6496-4472-956c-fa1cc8b8b89a")
 	)
 	(hierarchical_label "{CAN2_INT}"
 		(shape bidirectional)
-		(at 50.8 76.2 180)
+		(at 109.22 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -258,42 +146,33 @@
 		)
 		(uuid "94f0b22c-983f-47a1-9858-59d1ab8e0e9a")
 	)
-	(hierarchical_label "ARM_check"
-		(shape input)
-		(at 101.6 114.3 180)
+	(hierarchical_label "{ERBUS_SIG}"
+		(shape bidirectional)
+		(at 109.22 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(bold yes)
 			)
 			(justify right)
 		)
-		(uuid "963be00e-8b37-4ddf-852b-ec22a286c26d")
+		(uuid "9f99abe9-8e2b-4843-b707-9e34d662c24a")
 	)
-	(hierarchical_label "MP6_IN"
-		(shape input)
-		(at 101.6 106.68 180)
+	(hierarchical_label "{SPI_Fsense}"
+		(shape bidirectional)
+		(at 157.48 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(bold yes)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "dc596941-b0ca-4683-b94e-f19dbc86f157")
-	)
-	(hierarchical_label "MP2_IN"
-		(shape input)
-		(at 101.6 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fa31fdf2-1a13-4098-b0a0-bca1a870ef6b")
+		(uuid "e234afce-122e-4d00-a6fe-892b726562be")
 	)
 	(sheet
-		(at 114.3 33.02)
-		(size 53.34 33.02)
+		(at 114.3 38.1)
+		(size 38.1 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -308,7 +187,7 @@
 		)
 		(uuid "bb256d9c-6f98-4f4a-b627-50239ee51d58")
 		(property "Sheetname" "Sensor Controller"
-			(at 114.3 32.3084 0)
+			(at 114.3 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -317,12 +196,52 @@
 			)
 		)
 		(property "Sheetfile" "CPU_package.kicad_sch"
-			(at 114.3 66.6246 0)
+			(at 114.3 52.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{CAN2_INT}" bidirectional
+			(at 114.3 43.18 180)
+			(uuid "91dc6feb-38e6-4ed9-aa17-0eac3d61687c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SPI_Fsense}" bidirectional
+			(at 152.4 43.18 0)
+			(uuid "a134798e-68e8-4f70-a770-f4ef8b1e4c74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{SPI_Psense}" bidirectional
+			(at 152.4 46.99 0)
+			(uuid "ee5e80aa-3601-4863-85fc-1a2d06ee3524")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Received_Feedback" input
+			(at 114.3 46.99 180)
+			(uuid "0dfe767e-6ed7-42fe-b5ad-1e8907fc849a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -335,7 +254,7 @@
 	)
 	(sheet
 		(at 114.3 88.9)
-		(size 30.48 27.94)
+		(size 38.1 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -359,7 +278,7 @@
 			)
 		)
 		(property "Sheetfile" "light_CPU_package.kicad_sch"
-			(at 114.3 117.4246 0)
+			(at 114.3 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -367,98 +286,8 @@
 				(justify left top)
 			)
 		)
-		(pin "ARM_check" input
-			(at 114.3 114.3 180)
-			(uuid "4cd0c247-aaf0-4c82-b8d5-1716725dbe4a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MP0_IN" input
-			(at 114.3 91.44 180)
-			(uuid "489f8f2a-751e-4665-8a44-38a483243f07")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MP1_IN" input
-			(at 114.3 93.98 180)
-			(uuid "99eaab54-5966-4123-8f84-88c753feeb42")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MP2_IN" input
-			(at 114.3 96.52 180)
-			(uuid "5d0952f7-571b-46fd-87b4-511e26403cfd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MP3_IN" input
-			(at 114.3 99.06 180)
-			(uuid "50da7d49-6552-4599-ab2a-fa46fda730e2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MP4_IN" input
-			(at 114.3 101.6 180)
-			(uuid "9a413ecd-231a-445a-9327-c83e6c9d1af7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MP5_IN" input
-			(at 114.3 104.14 180)
-			(uuid "253d44c7-8bb6-40ef-83af-dd02764efacf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MP6_IN" input
-			(at 114.3 106.68 180)
-			(uuid "1366aff8-059d-4726-b524-8995edd3ac6c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MP7_IN" input
-			(at 114.3 109.22 180)
-			(uuid "58f9546f-e6e3-44fc-ae1f-7a5a708d15ec")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "Received_Feedback" output
-			(at 144.78 97.79 0)
+			(at 152.4 92.71 0)
 			(uuid "dcaa4b95-4ea6-4583-b83e-642d69d31957")
 			(effects
 				(font
@@ -468,13 +297,23 @@
 			)
 		)
 		(pin "{PWM_BUS}" output
-			(at 144.78 105.41 0)
+			(at 152.4 96.52 0)
 			(uuid "58ecbe23-894f-4391-962f-c2e0da79daf5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "{ERBUS_SIG}" input
+			(at 114.3 96.52 180)
+			(uuid "8bd30173-9c3a-461b-934b-cb160cb2c2ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

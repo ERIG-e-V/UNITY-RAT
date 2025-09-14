@@ -5,9 +5,10 @@
 	(uuid "c9b3b8b9-f415-4a39-b6b6-e44edab9fb77")
 	(paper "A4")
 	(title_block
-		(title "Sensor MCU")
+		(title "ERBUS & Power Input")
 		(date "2025-08-23")
 		(rev "0")
+		(company "E.R.I.G. e.V")
 	)
 	(lib_symbols
 		(symbol "CUSTOM:DSUB_26_HD"

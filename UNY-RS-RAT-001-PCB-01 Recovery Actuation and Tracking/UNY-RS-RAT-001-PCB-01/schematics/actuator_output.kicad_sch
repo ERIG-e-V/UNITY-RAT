@@ -5,9 +5,276 @@
 	(uuid "97b2993e-2624-4d7d-813d-e994e579229f")
 	(paper "A4")
 	(title_block
-		(title "Sensor MCU")
+		(title "Actuator Output")
 		(date "2025-08-23")
 		(rev "0")
+		(company "E.R.I.G. e.V")
 	)
 	(lib_symbols)
+	(text "Connector"
+		(exclude_from_sim no)
+		(at 129.54 48.006 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "618a4406-02cb-45fc-bd9a-3be40e030cb8")
+	)
+	(text "Connector"
+		(exclude_from_sim no)
+		(at 129.54 99.822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "799f9068-094d-493e-85ed-344f9d86ce44")
+	)
+	(text "Connector"
+		(exclude_from_sim no)
+		(at 130.048 74.422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "82b572e2-f545-4339-b453-3ea12e80aa55")
+	)
+	(text "Connector"
+		(exclude_from_sim no)
+		(at 129.286 89.408 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f328f055-8e57-4e47-bb5d-d3fcc46c2c5e")
+	)
+	(text "Connector"
+		(exclude_from_sim no)
+		(at 129.286 61.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f5b5f8de-d336-4fb1-83d8-0b4b97d60e39")
+	)
+	(bus_entry
+		(at 53.34 57.15)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c892698-47cf-4e94-ac32-de65d9401420")
+	)
+	(bus_entry
+		(at 50.8 57.15)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ad893e0-5e1e-4905-8eca-744f10a02477")
+	)
+	(bus_entry
+		(at 48.26 57.15)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dfcb30e-7ff4-4b6d-95fd-fce148e63a18")
+	)
+	(bus_entry
+		(at 55.88 57.15)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ea2659-6079-491c-bc96-7438087af4f0")
+	)
+	(bus_entry
+		(at 58.42 57.15)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a862d006-0eba-4ebf-a058-556bc7850be7")
+	)
+	(bus
+		(pts
+			(xy 55.88 54.61) (xy 58.42 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08079719-ceb1-4d60-8666-e5a60f41a1c9")
+	)
+	(bus
+		(pts
+			(xy 53.34 54.61) (xy 55.88 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "231ff37f-45fa-4384-baf3-29b74792901b")
+	)
+	(bus
+		(pts
+			(xy 50.8 54.61) (xy 53.34 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2acf8d88-bab0-43f5-8ef3-01682dc2789a")
+	)
+	(wire
+		(pts
+			(xy 48.26 66.04) (xy 48.26 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d356bad-d3ab-4334-8351-f2e1e475c4ef")
+	)
+	(bus
+		(pts
+			(xy 60.96 54.61) (xy 62.23 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4486b14e-75ff-462d-b33c-b30e2ac5296f")
+	)
+	(bus
+		(pts
+			(xy 62.23 54.61) (xy 62.23 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6341742e-1d5c-4756-9ef3-a37ab9b39866")
+	)
+	(wire
+		(pts
+			(xy 53.34 66.04) (xy 53.34 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bdf32b3-075c-4d15-83d9-5ad694aaa850")
+	)
+	(wire
+		(pts
+			(xy 58.42 66.04) (xy 58.42 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91177c0c-6ad8-4d03-87b1-ef850886a413")
+	)
+	(wire
+		(pts
+			(xy 55.88 66.04) (xy 55.88 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b444e263-ba86-41b9-9ae7-9aca5cadb13f")
+	)
+	(wire
+		(pts
+			(xy 50.8 66.04) (xy 50.8 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf884f31-8a9c-4326-b14e-8c77c4e6a99e")
+	)
+	(bus
+		(pts
+			(xy 58.42 54.61) (xy 60.96 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2702e5c-f0ea-4979-bc37-758faeb0b6b7")
+	)
+	(label "PWM_3"
+		(at 53.34 66.04 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a57eebe-a0cc-4b47-a590-23e3694394b8")
+	)
+	(label "PWM_5"
+		(at 58.42 66.04 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7314661d-ee43-4f97-b3c1-160e9295f716")
+	)
+	(label "PWM_2"
+		(at 50.8 66.04 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be98f22a-3f83-46c0-b0b4-dfa2a7e4574f")
+	)
+	(label "PWM_1"
+		(at 48.26 66.04 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2d2bd6b-c474-4612-959c-5bd94835d409")
+	)
+	(label "PWM_4"
+		(at 55.88 66.04 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f14f7428-8ecb-409b-94c7-84c06eeb012f")
+	)
+	(hierarchical_label "{PWM_BUS}"
+		(shape output)
+		(at 62.23 50.8 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "881488f7-2266-4b63-bef4-b434347d5cae")
+	)
 )

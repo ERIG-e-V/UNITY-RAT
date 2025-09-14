@@ -8,7 +8,7 @@
 		(title "Sensor MCU")
 		(date "2025-08-23")
 		(rev "0")
-		(company "E.R.I.G. e.V.")
+		(company "E.R.I.G. e.V")
 	)
 	(lib_symbols)
 	(text "Change Log:"
